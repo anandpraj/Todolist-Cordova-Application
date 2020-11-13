@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  }
+  body{
+   margin: 0;
+   min-width: 250px;
+  }
+  .first{
+    height: 170px;
+    background-color: #4285F4;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+  }
+  .nav{
+    position: relative;
+    top: 60px;
+    margin-left: 20%;
+  }
+  .addbutton
+  {
+    background-color: lightgrey;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .addbutton:hover
+  {
+    background-color: #C0C0C0;
+    transition: 1s;
+  }
+  input
+  {
+    width: 50vw;
+    height: 36px;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .second{
+    height: 70vh;
+  }
+  .todo
+  {
+    margin-top: 170px;
+    list-style: none;
+    background-color: lightgrey;
+  }
+  .todo li
+  {
+    height: 40px;
+    font-size: 15px;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  .close
+  {
+    position: absolute;
+    right: 15px;
+    padding: 0px 10px 0px 10px;
+  }
+  ul li.checked {
+  text-decoration: line-through;
+  background-color: #C0C0C0;
+}
